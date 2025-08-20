@@ -1,49 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-primary " data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Hotel Paradice</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About US</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      
-    </div>
-  </div>
-</nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-primary "
+                data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="imgs/png1.png"
+                            alt="logo" width="76" height="80"></a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About
+                                    US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="gallary.html">Gallary</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div id="carouselExampleInterval" class="carousel slide"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleInterval"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleInterval"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleInterval"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleInterval"
+                            data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
 
-    <h1>This Is my Index Page</h1>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"
+                            data-bs-interval="2000">
+                            <img src="imgs/baner1.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h2>First slide label</h2>
+                                <p>Some representative placeholder content for
+                                    the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="imgs/baner2.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h2>Second slide label</h2>
+                                <p>Some representative placeholder content for
+                                    the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="imgs/baner1.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h2>Third slide label</h2>
+                                <p>Some representative placeholder content for
+                                    the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="imgs/baner2.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h2>Fourth slide label</h2>
+                                <p>Some representative placeholder content for
+                                    the fourth slide.</p>
+                            </div>
+                        </div>
+                    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <!-- slider end  -->
+
+        <!-- services section start -->
+
+        <section class="mt-5 bg-bold">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mb-3">Our Services</h2>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/4-3.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Swiming Pool</h5>
+                                <p class="card-text">Enjoy our crystal-clear
+                                    swimming pool designed for relaxation and
+                                    fun. Perfect for simply unwinding in a
+                                    refreshing environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/5-3.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Conference Hall</h5>
+                                <p class="card-text"> Our state-of-the-art
+                                    conference hall is equipped with modern
+                                    audio-visual facilities, ideal for meetings,
+                                    seminars, and corporate events. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/11.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Garden</h5>
+                                <p class="card-text"> Relax and rejuvenate in
+                                    our beautifully landscaped garden,
+                                    surrounded by lush greenery and vibrant
+                                    flowers. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/10-3.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Game-Zone</h5>
+                                <p class="card-text">Step into our exciting
+                                    indoor game zone, designed for all ages to
+                                    enjoy endless fun. From board games to
+                                    interactive activities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- services section end -->
+
+        <section>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="imgs/bedroom1-hr.jpg" alt="bed"
+                                    class="img-fluid">
+                            </div>
+                            <div class="col-md-7">
+                                <h2>Hotel Paradice</h2>
+                                <p>Welcome to <b>Hotel Paradise</b>, your home
+                                    away from home. We believe that every guest
+                                    deserves not just a stay, but a memorable
+                                    experience filled with comfort, care, and
+                                    warm hospitality. From the moment you step
+                                    into our hotel, you will be greeted with a
+                                    smile and a promise — to make your visit
+                                    relaxing, enjoyable, and stress-free. always
+                                    welcomed for you lets enjoy the facylities
+                                    of hotel paradice. always a grand welcomes
+                                    to everyones. always welcomed for you lets
+                                    enjoy the facylities of hotel paradice.
+                                    always a grand welcomes to everyones.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="imgs/dining_table_hr.jpg"
+                                    alt="dining table" class="img-fluid mt-2">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="imgs/window_gal_hr.jpg"
+                                    alt="dining table" class="img-fluid mt-2">
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Vision</h2>
+                                <p>To be the most preferred hotel by offering
+                                    world-class hospitality, unmatched comfort,
+                                    and memorable experiences that make every
+                                    guest feel at home. To be the most preferred
+                                    hotel by offering world-class hospitality,
+                                    unmatched comfort, and memorable experiences
+                                    that make every guest feel at home.To be the
+                                    most preferred hotel by offering world-class
+                                    hospitality, unmatched comfort, and
+                                    memorable experiences that make every guest
+                                    feel at home.To be the most preferred hotel
+                                    by offering world-class hospitality,
+                                    unmatched comfort, and memorable experiences
+                                    that make every guest feel at home.To be the
+                                    most preferred hotel by offering world-class
+                                    hospitality, unmatched comfort, and
+                                    memorable experiences that make every guest
+                                    feel at home.</p>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imgs/bed-ver.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imgs/beg_vr2.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imgs/dining_table_vr.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imgs/dish1_ver.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Mission</h2>
+                                <p>Our mission is to provide exceptional service
+                                    with warmth and care, ensure luxurious yet
+                                    affordable stays, and create unforgettable
+                                    moments for our guests through continuous
+                                    innovation and attention to detail.Our
+                                    mission is to provide exceptional service
+                                    with warmth and care, ensure luxurious yet
+                                    affordable stays, and create unforgettable
+                                    moments for our guests through continuous
+                                    innovation and attention to detail.Our
+                                    mission is to provide exceptional service
+                                    with warmth and care, ensure luxurious yet
+                                    affordable stays, and create unforgettable
+                                    moments for our guests through continuous
+                                    innovation and attention to detail.Our
+                                    mission is to provide exceptional service
+                                    with warmth and care, ensure luxurious yet
+                                    affordable stays</p>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imgs/bed-ver.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imgs/beg_vr2.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imgs/dining_table_vr.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="imgs/dish1_ver.jpg"
+                                            alt="interiar" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="imgs/dish1_ver.jpg" alt="dish"
+                                    class="img-fluid mt-5">
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="mt-5">Famous Dish</h2>
+                                <p>The omelet is one of the most loved and
+                                    versatile dishes in the world.It is prepared
+                                    by whisking fresh eggs until they become
+                                    smooth and fluffy.The mixture is then
+                                    seasoned with a pinch of salt and black
+                                    pepper.Some people also add a dash of milk
+                                    to make it extra soft and creamy.Once the
+                                    batter is ready, it is poured onto a hot,
+                                    greased pan.The sizzling sound and aroma
+                                    instantly awaken the appetite.The surface
+                                    starts to set while the bottom turns golden
+                                    brown.At this stage, delicious fillings can
+                                    be added to enhance the flavor.</p>
+                                <p>The omelet is one of the most loved and
+                                    versatile dishes in the world.It is prepared
+                                    by whisking fresh eggs until they become
+                                    smooth and fluffy.The mixture is then
+                                    seasoned with a pinch of salt and black
+                                    pepper.Some people also add a dash of milk
+                                    to make it extra soft and creamy.Once the
+                                    batter is ready, it is poured onto a hot,
+                                    greased pan.The sizzling sound and aroma
+                                    instantly awaken the appetite.The surface
+                                    starts to set while the bottom turns golden
+                                    brown.At this stage, delicious fillings can
+                                    be added to enhance the flavor.</p>
+                                <p>The omelet is one of the most loved and
+                                    versatile dishes in the world.It is prepared
+                                    by whisking fresh eggs until they become
+                                    smooth and fluffy.The mixture is then
+                                    seasoned with a pinch of salt and black
+                                    pepper.Some people also add a dash of milk
+                                    to make it extra soft and creamy.Once the
+                                    batter is ready, it is poured onto a hot,
+                                    greased pan.The sizzling sound and aroma
+                                    instantly awaken the appetite.The surface
+                                    starts to set while the bottom turns golden
+                                    brown.At this stage, delicious fillings can
+                                    be added to enhance the flavor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imgs/bed-ver.jpg" alt="beg"
+                            class="img-fluid mb-2">
+                        <img src="imgs/beg_vr2.jpg" alt="beg"
+                            class="img-fluid mb-2">
+                        <img src="imgs/dish1_ver.jpg" alt="beg"
+                            class="img-fluid mb-2">
+                        <img src="imgs/bed-ver.jpg" alt="beg"
+                            class="img-fluid mb-2">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h1>This Is my Index Page</h1>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous">
     </script>
-</body>
+    </body>
 </html>
